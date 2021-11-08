@@ -55,7 +55,7 @@ services:
     build:
       context: agar-io/cigar
       args:
-        OGAR_SERVER: "localhost:40010"
+        OGAR_SERVER: "api.agar-io.fachschaften.org"
     restart: always
     depends_on:
       - agar-io-ogar
