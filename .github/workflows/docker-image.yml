@@ -11,6 +11,7 @@ jobs:
     strategy:
       matrix:
         dockerfile_path:
+          - agar-io
           - agar-io/cigar
           - agar-io/ogar
           - battleship
