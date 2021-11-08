@@ -31,6 +31,3 @@ jobs:
       with:
         context: ${{matrix.dockerfile_path}}
         push: false
-        cache-from: type=gha
-        cache-to: type=gha
-
