@@ -46,11 +46,11 @@ services:
     restart: always
     ports:
     - "40007:3000"
-  agar-io:
-    build: agar-io
-    restart: always
-    ports:
-    - "40008:3000"
+  #agar-io:
+  #  build: agar-io
+  #  restart: always
+  #  ports:
+  #  - "40008:3000"
   agar-io-cigar:
     build:
       context: agar-io/cigar
