@@ -31,7 +31,7 @@ services:
     networks:
     - cards-against-humanity
   cards-against-humanity-client:
-    image: ghcr.io/lattyware/massivedecks/client@sha256:ec81342a3fd6808c277f927450c19d233f90df164007b1d2d8a54723d1478a6e
+    image: ghcr.io/lattyware/massivedecks/client@sha256:45b2e99a3aa68923a2a541e5954a0d52d31f93b1f318e594aaf9ca116e2ebae1
     restart: always
     networks:
     - cards-against-humanity
