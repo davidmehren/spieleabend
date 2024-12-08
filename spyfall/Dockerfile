@@ -1,4 +1,4 @@
-FROM alpine/git:v2.32.0 AS clone
+FROM alpine/git:v2.47.1 AS clone
 RUN git config --global advice.detachedHead false
 RUN git clone https://github.com/tannerkrewson/spyfall.git /app
 WORKDIR /app
